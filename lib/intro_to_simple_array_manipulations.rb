@@ -12,7 +12,7 @@ return array.pop
 end
 
 def pop_with_args(array)
-  array = 2.times{array.pop}
+  array = array.pop(2)
   return array
 end
 
