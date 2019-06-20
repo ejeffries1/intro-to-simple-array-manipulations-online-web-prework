@@ -12,11 +12,7 @@ return array.pop
 end
 
 def pop_with_args(array)
-  until array.index(2) >= 2 do 
-    array += 1
-    array.last
-  end
-  return array
+  return array[0..-3]
 end
 
 def using_shift(array)
