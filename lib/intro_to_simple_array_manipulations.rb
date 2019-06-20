@@ -12,7 +12,7 @@ return array.pop
 end
 
 def pop_with_args(array)
-  until array >= 2 do 
+  until array <= 2 do 
     array -= 1
     array.last
   end
