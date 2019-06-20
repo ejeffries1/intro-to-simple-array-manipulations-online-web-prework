@@ -13,7 +13,7 @@ end
 
 def pop_with_args(array)
   array = array[-2..-1]
-  return array.length - 2
+  return array
 end
 
 def using_shift(array)
